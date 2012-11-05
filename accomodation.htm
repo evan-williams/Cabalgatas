@@ -1,0 +1,82 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+    <head>
+		<title>Cabalgatas Lago Puelo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="/css/master.css?v=1">
+        <!--[if gte IE 6 ]><link rel="stylesheet" type="text/css" media="screen" href="/css/ie.css" /><![endif]-->
+        <link href="/favicon.ico" rel="icon" type="image/x-icon">
+        <script type="text/javascript" src="/js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="/js/global.js?v=1"></script>
+    </head>
+	<body class="accomodation">
+        <div class="menu"></div>
+        <h1 class="text txt-accomodation-header">El Portal Del Lago Departamentos</h1>
+        <ul>
+            <li class="text txt-accomodation-point1">Totalmente equipados para 2 o 3 personas</li>
+            <li class="text txt-accomodation-point2">Planta baja con jardín y parrilla</li>
+            <li class="text txt-accomodation-point3">Atendido por sus dueños</li>
+        </ul>
+        <h2 class="text txt-accomodation-tariffs">Tarifas 2011-12</h2>
+        <table class="accompricetable">
+            <thead>
+                <tr>
+                    <th class="text txt-accprices-season">Temporada</th>
+                    <th class="text txt-accprices-dates">Fechas</th>
+                    <th class="text txt-accprices-2pax">2 pax</th>
+                    <th class="text txt-accprices-3pax">3 pax</th>
+                </tr>
+            </thead>
+            <tbody><tr>
+                <td class="text txt-accprices-lowseason">Baja</td>
+                <td class="text txt-accprices-lowdates">Abril a Octubre</td>
+                <td>$200</td>
+                <td>$220</td>
+            </tr>
+            <tr>
+                <td class="text txt-accprices-midseason">Media</td>
+                <td class="text txt-accprices-middates">November a 19 Diciembre y Marzo</td>
+                <td>$220</td>
+                <td>$250</td>
+            </tr>
+            <tr>
+                <td class="text txt-accprices-highseason">Alta</td>
+                <td class="text txt-accprices-highdates">20 Diciembre a fin de Febrero, Semana Santa, Vacaciones de Invierno</td>
+                <td>$250</td>
+                <td>$300</td>
+            </tr>
+        </tbody></table>
+        <h3 class="text txt-accprices-currency">Prices per flat per night (ARG pesos)</h3>
+        <h2 class="text txt-accprices-photos">Fotos</h2>
+        <div id="thumbs">
+            <img src="/img/photos/flat/1_thumb.jpg" alt="/img/photos/flat/1.jpg" class="selected">
+            <img src="/img/photos/flat/2_thumb.jpg" alt="/img/photos/flat/2.jpg">
+            <img src="/img/photos/flat/3_thumb.jpg" alt="/img/photos/flat/3.jpg">
+            <img src="/img/photos/flat/4_thumb.jpg" alt="/img/photos/flat/4.jpg">
+            <img src="/img/photos/flat/5_thumb.jpg" alt="/img/photos/flat/5.jpg">
+            <img src="/img/photos/flat/7_thumb.jpg" alt="/img/photos/flat/7.jpg">
+            <img src="/img/photos/flat/8_thumb.jpg" alt="/img/photos/flat/8.jpg">
+            <img src="/img/photos/flat/9_thumb.jpg" alt="/img/photos/flat/9.jpg">
+            <img src="/img/photos/flat/10_thumb.jpg" alt="/img/photos/flat/10.jpg">
+            <img src="/img/photos/flat/11_thumb.jpg" alt="/img/photos/flat/11.jpg">
+            <img src="/img/photos/flat/12_thumb.jpg" alt="/img/photos/flat/12.jpg">
+        </div>
+        <img src="/img/photos/1.jpg" id="fullres">
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#thumbs img").click(thumbClicked);
+            });
+
+            var thumbClicked = function (e) {
+                $("#thumbs img.selected").removeClass("selected");
+                $(this).addClass("selected");
+                var path = $(this).attr("alt");
+                $("#fullres").fadeOut(200, function () {
+                    $("#fullres").attr("src", path);
+                    $("#fullres").fadeIn(100);
+                });
+            };
+        </script>
+</body>
+</html>
