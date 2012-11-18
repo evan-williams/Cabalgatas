@@ -72,8 +72,8 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'lnk-menu-home', dataSpanish, 'Casa');
         setTextIfLang(this, currentLanguage, 'lnk-menu-home', dataEnglish, 'Home');
 
-        setTextIfLang(this, currentLanguage, 'lnk-menu-prices', dataSpanish, 'Precios');
-        setTextIfLang(this, currentLanguage, 'lnk-menu-prices', dataEnglish, 'Prices');
+        setTextIfLang(this, currentLanguage, 'lnk-menu-prices', dataSpanish, 'Excursiones');
+        setTextIfLang(this, currentLanguage, 'lnk-menu-prices', dataEnglish, 'Excursions');
 
         setTextIfLang(this, currentLanguage, 'lnk-menu-location', dataSpanish, 'Ubicacion');
         setTextIfLang(this, currentLanguage, 'lnk-menu-location', dataEnglish, 'Location');
@@ -87,8 +87,8 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'lnk-menu-contact', dataSpanish, 'Contacto');
         setTextIfLang(this, currentLanguage, 'lnk-menu-contact', dataEnglish, 'Contact');
 
-        setTextIfLang(this, currentLanguage, 'lnk-menu-accomodation', dataSpanish, 'Alojamiento');
-        setTextIfLang(this, currentLanguage, 'lnk-menu-accomodation', dataEnglish, 'Accomodation');
+        setTextIfLang(this, currentLanguage, 'lnk-menu-accommodation', dataSpanish, 'El Portal Del Lago');
+        setTextIfLang(this, currentLanguage, 'lnk-menu-accommodation', dataEnglish, 'El Portal Del Lago Apartments');
 
         setTextIfLang(this, currentLanguage, 'lnk-menu-english', dataSpanish, 'Ingles');
         setTextIfLang(this, currentLanguage, 'lnk-menu-english', dataEnglish, 'English');
@@ -122,15 +122,15 @@ var setLanguageValues = function () {
         //Prices
         setTextIfLang(this, currentLanguage, 'txt-prices-header', dataSpanish, 'Precios de algunos de nuestros recorridos (2011-12)');
         setTextIfLang(this, currentLanguage, 'txt-prices-header', dataEnglish, 'Prices for some of our excursions (2011-12)');
+
+        setTextIfLang(this, currentLanguage, 'txt-prices-subheader', dataSpanish, 'Tarifa por escursion depende del tamaño del grupo. Contáctese con nosotros para mas información.');
+        setTextIfLang(this, currentLanguage, 'txt-prices-subheader', dataEnglish, 'Prices depend on group size. Please contact us for more information.');
         
         setTextIfLang(this, currentLanguage, 'txt-prices-destination', dataSpanish, 'Destino');
         setTextIfLang(this, currentLanguage, 'txt-prices-destination', dataEnglish, 'Destination');
 
         setTextIfLang(this, currentLanguage, 'txt-prices-duration', dataSpanish, 'Duración');
         setTextIfLang(this, currentLanguage, 'txt-prices-duration', dataEnglish, 'Duration');
-
-        setTextIfLang(this, currentLanguage, 'txt-prices-perhorse', dataSpanish, 'Cada caballo (pesos)');
-        setTextIfLang(this, currentLanguage, 'txt-prices-perhorse', dataEnglish, 'Per horse (pesos)');
 
         setTextIfLang(this, currentLanguage, 'txt-prices-route', dataSpanish, 'Ruta');
         setTextIfLang(this, currentLanguage, 'txt-prices-route', dataEnglish, 'Route');
@@ -156,25 +156,46 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'txt-prices-6-destination', dataSpanish, 'Límite con Chile');
         setTextIfLang(this, currentLanguage, 'txt-prices-6-destination', dataEnglish, 'Border with Chile');
 
-        setTextIfLang(this, currentLanguage, 'txt-prices-other', dataSpanish, 'Consulte precios por paseos más largos (ej: Paraje El Turbio, naciente del Río Chubut).');
+        setTextIfLang(this, currentLanguage, 'txt-prices-other', dataSpanish, 'Consultenos por información sobre paseos más largos (ej: Paraje El Turbio, naciente del Río Chubut).');
         setTextIfLang(this, currentLanguage, 'txt-prices-other', dataEnglish, 'We also offer longer trips lasting several days (eg El Turbio , start of the river Chubut).');
         
-        //Accomodation
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-header', dataSpanish, 'El Portal Del Lago Departamentos');
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-header', dataEnglish, 'El Portal Del Lago Apartments');
+        //Accommodation
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-header', dataSpanish, 'El Portal Del Lago Departamentos');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-header', dataEnglish, 'El Portal Del Lago Apartments');
 
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-tariffs', dataSpanish, 'Tarifas 2011-12');
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-tariffs', dataEnglish, 'Tariffs 2011-12');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-subheader', dataSpanish, 'Disfrute del privilegio de tener al Parque Nacional Lago Puelo en la puerta de su casa. Estamos ubicados en la entrada al parque, a una corta caminata del lago y del Rio Azul.');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-subheader', dataEnglish, 'Enjoy the privilege of having the Lago Puelo National Park on your doorstep. We are at the entrance to the Park, a short walk away from the lake and the river Rio Azul.');
 
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-point1', dataSpanish, 'Totalmente equipados para 2 o 3 personas');
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-point1', dataEnglish, 'Fully equipped for 2 or 3 people');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-location', dataSpanish, 'En la entrada al Parque Nacional Lago Puelo, Ruta 16 Km 14.500');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-location', dataEnglish, 'We are situated at the entrance to Lago Puelo National Park (Ruta 16 Km 14.500).');
 
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-point2', dataSpanish, 'Planta baja con jardín y parrilla');
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-point2', dataEnglish, 'Ground floor flat with garden and barbeque');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-contact', dataSpanish, 'Contacto: Para mas informacion, tarifas y reservas contactarse con Liza via email a cabalgataslagopuelo@gmail.com o al telefono (0294) 154 209417');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-contact', dataEnglish, 'Contact: For further information, prices and reservations contact Liza at cabalgataslagopuelo@gmail.com Tel (0294) 154 209417');
 
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-point3', dataSpanish, 'Atendido por sus dueños');
-        setTextIfLang(this, currentLanguage, 'txt-accomodation-point3', dataEnglish, 'Owners on site');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-tariffs', dataSpanish, 'Tarifas 2011-12');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-tariffs', dataEnglish, 'Tariffs 2011-12');
 
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point1', dataSpanish, 'Departamentos totalmente equipados (cocina con horno y vajilla completa, heladera, ropa de cama, toallas, calefacción a gas)');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point1', dataEnglish, 'Fully equipped apartments (cooker with oven, all cutlery and crockery, fridge, linen and towels, gas heating');
+
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point2', dataSpanish, 'Capacidad hasta 4 personas');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point2', dataEnglish, 'Capacity for up to 4 people');
+
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point3', dataSpanish, 'Planta baja con jardín y parrilla');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point3', dataEnglish, 'Ground floor with garden and BBQ');
+        
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point4', dataSpanish, 'Servicio de Wi-Fi');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point4', dataEnglish, 'Wi-Fi available');
+        
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point5', dataSpanish, 'Descuento en cabalgatas dentro del Parque y sus alrededores');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point5', dataEnglish, 'Discount on horse-rides in the park and surrounding areas');
+        
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point6', dataSpanish, 'Atendido por sus dueños');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point6', dataEnglish, 'Owner operated');
+        
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataSpanish, 'Abierto todo el año');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataEnglish, 'Open all year');
+       
         setTextIfLang(this, currentLanguage, 'txt-accprices-season', dataSpanish, 'Temporada');
         setTextIfLang(this, currentLanguage, 'txt-accprices-season', dataEnglish, 'Season');
 

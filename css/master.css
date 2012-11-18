@@ -237,7 +237,7 @@ body.prices div.txt-prices-other {
 /* Photos */
 
 body.photos #thumbs,
-body.accomodation #thumbs {
+body.accommodation #thumbs {
     float: left;
     width: 100px;
     height: 700px;
@@ -245,7 +245,7 @@ body.accomodation #thumbs {
 }
 
 body.photos #thumbs img,
-body.accomodation #thumbs img {
+body.accommodation #thumbs img {
     border: 1px solid #000000;
     width: 75px;
     height: 75px;
@@ -253,17 +253,17 @@ body.accomodation #thumbs img {
 }
 
 body.photos #thumbs img:hover,
-body.accomodation #thumbs img:hover {
+body.accommodation #thumbs img:hover {
     cursor: pointer;
 }
 
 body.photos #thumbs img.selected,
-body.accomodation #thumbs img.selected {
+body.accommodation #thumbs img.selected {
     border: 2px solid #d50404;
 }
 
 body.photos #fullres,
-body.accomodation #fullres {
+body.accommodation #fullres {
     float: left;
     margin: 0 0 0 10px;
     max-height: 700px;
@@ -273,36 +273,36 @@ body.accomodation #fullres {
 
 /* Photos */
 
-/* Accomodation */
+/* Accommodation */
 
-body.accomodation h2.txt-accomodation-tariffs,
-body.accomodation h2.txt-accprices-photos {
+body.accommodation h2.txt-accommodation-tariffs,
+body.accommodation h2.txt-accprices-photos {
    font-size: 20px; 
 }
 
-body.accomodation h2.txt-accomodation-tariffs {
+body.accommodation h2.txt-accommodation-tariffs {
    margin: 20px 0 0 0;
 }
 
 
-body.accomodation ul li {
+body.accommodation ul li {
    font-size: 18px; 
 }
 
-body.accomodation table.accompricetable {
+body.accommodation table.accompricetable {
     width: 900px;
     font-size: 20px;
 }
 
-body.accomodation table.accompricetable th {
+body.accommodation table.accompricetable th {
     color: #342c29;
 }
 
-body.accomodation table.accompricetable th {
+body.accommodation table.accompricetable th {
     text-align: left;
 }
 
-/* Accomodation */
+/* Accommodation */
 
 
 /* Location */
