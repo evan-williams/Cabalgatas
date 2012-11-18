@@ -87,7 +87,7 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'lnk-menu-contact', dataSpanish, 'Contacto');
         setTextIfLang(this, currentLanguage, 'lnk-menu-contact', dataEnglish, 'Contact');
 
-        setTextIfLang(this, currentLanguage, 'lnk-menu-accommodation', dataSpanish, 'El Portal Del Lago');
+        setTextIfLang(this, currentLanguage, 'lnk-menu-accommodation', dataSpanish, 'El Portal Del Lago Departamentos');
         setTextIfLang(this, currentLanguage, 'lnk-menu-accommodation', dataEnglish, 'El Portal Del Lago Apartments');
 
         setTextIfLang(this, currentLanguage, 'lnk-menu-english', dataSpanish, 'Ingles');
