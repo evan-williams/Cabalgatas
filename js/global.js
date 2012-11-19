@@ -166,8 +166,8 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'txt-accommodation-subheader', dataSpanish, 'Disfrute del privilegio de tener al Parque Nacional Lago Puelo en la puerta de su casa. Estamos ubicados en la entrada al parque, a una corta caminata del lago y del Rio Azul.');
         setTextIfLang(this, currentLanguage, 'txt-accommodation-subheader', dataEnglish, 'Enjoy the privilege of having the Lago Puelo National Park on your doorstep. We are at the entrance to the Park, a short walk away from the lake and the river Rio Azul.');
 
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-location', dataSpanish, 'En la entrada al Parque Nacional Lago Puelo, Ruta 16 Km 14.500');
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-location', dataEnglish, 'We are situated at the entrance to Lago Puelo National Park (Ruta 16 Km 14.500).');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-location', dataSpanish, 'Ubicacion: En la entrada al Parque Nacional Lago Puelo, Ruta 16 Km 14.500');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-location', dataEnglish, 'Location: We are situated at the entrance to Lago Puelo National Park (Ruta 16 Km 14.500).');
 
         setTextIfLang(this, currentLanguage, 'txt-accommodation-contact', dataSpanish, 'Contacto: Para mas informacion, tarifas y reservas contactarse con Liza via email a cabalgataslagopuelo@gmail.com o al telefono (0294) 154 209417');
         setTextIfLang(this, currentLanguage, 'txt-accommodation-contact', dataEnglish, 'Contact: For further information, prices and reservations contact Liza at cabalgataslagopuelo@gmail.com Tel (0294) 154 209417');
