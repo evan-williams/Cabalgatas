@@ -172,9 +172,6 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'txt-accommodation-contact', dataSpanish, 'Contacto: Para mas informacion, tarifas y reservas contactarse con Liza via email a cabalgataslagopuelo@gmail.com o al telefono (0294) 154 209417');
         setTextIfLang(this, currentLanguage, 'txt-accommodation-contact', dataEnglish, 'Contact: For further information, prices and reservations contact Liza at cabalgataslagopuelo@gmail.com Tel (0294) 154 209417');
 
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-tariffs', dataSpanish, 'Tarifas 2011-12');
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-tariffs', dataEnglish, 'Tariffs 2011-12');
-
         setTextIfLang(this, currentLanguage, 'txt-accommodation-point1', dataSpanish, 'Departamentos totalmente equipados (cocina con horno y vajilla completa, heladera, ropa de cama, toallas, calefacción a gas)');
         setTextIfLang(this, currentLanguage, 'txt-accommodation-point1', dataEnglish, 'Fully equipped apartments (cooker with oven, all cutlery and crockery, fridge, linen and towels, gas heating');
 
@@ -195,37 +192,7 @@ var setLanguageValues = function () {
         
         setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataSpanish, 'Abierto todo el año');
         setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataEnglish, 'Open all year');
-       
-        setTextIfLang(this, currentLanguage, 'txt-accprices-season', dataSpanish, 'Temporada');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-season', dataEnglish, 'Season');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-dates', dataSpanish, 'Fechas');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-dates', dataEnglish, 'Dates');
-        
-        setTextIfLang(this, currentLanguage, 'txt-accprices-2pax', dataSpanish, '2 pax');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-2pax', dataEnglish, '2 per');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-3pax', dataSpanish, '3 pax');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-3pax', dataEnglish, '3 per');
-        
-        setTextIfLang(this, currentLanguage, 'txt-accprices-lowseason', dataSpanish, 'Baja');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-lowseason', dataEnglish, 'Low');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-midseason', dataSpanish, 'Media');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-midseason', dataEnglish, 'Mid');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-highseason', dataSpanish, 'Alta');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-highseason', dataEnglish, 'High');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-lowdates', dataSpanish, 'Abril a Octubre');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-lowdates', dataEnglish, 'April to October');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-middates', dataSpanish, 'November a 19 Diciembre y Marzo');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-middates', dataEnglish, 'November to 19 December and March');
-
-        setTextIfLang(this, currentLanguage, 'txt-accprices-highdates', dataSpanish, '20 Diciembre a fin de Febrero, Semana Santa, Vacaciones de Invierno');
-        setTextIfLang(this, currentLanguage, 'txt-accprices-highdates', dataEnglish, '20 December to end of February, Easter, Winter Holidays');
-
+    
         setTextIfLang(this, currentLanguage, 'txt-accprices-photos', dataSpanish, 'Fotos');
         setTextIfLang(this, currentLanguage, 'txt-accprices-photos', dataEnglish, 'Photos');
         
