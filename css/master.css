@@ -10,7 +10,7 @@
 }
 
 body {
-    font: 11px/1.5 'Bodoni MT', Tahoma, 'Liberation Sans', FreeSans, sans-serif;
+    font: 11px/1.5 'Book Antiqua', 'Palatino', 'Liberation Sans', FreeSans, sans-serif;
 	-webkit-font-smoothing: subpixel-antialiased;
     background-image: url('/img/parchment2.jpg');
     background-position: center;
