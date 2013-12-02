@@ -184,14 +184,17 @@ var setLanguageValues = function () {
         setTextIfLang(this, currentLanguage, 'txt-accommodation-point4', dataSpanish, 'Servicio de Wi-Fi');
         setTextIfLang(this, currentLanguage, 'txt-accommodation-point4', dataEnglish, 'Wi-Fi available');
         
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-point5', dataSpanish, 'Descuento en cabalgatas dentro del Parque y sus alrededores');
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-point5', dataEnglish, 'Discount on horse-rides in the park and surrounding areas');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point5', dataSpanish, 'TV Satelital');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point5', dataEnglish, 'Satellite TV');
         
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-point6', dataSpanish, 'Atendido por sus dueños');
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-point6', dataEnglish, 'Owner operated');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point6', dataSpanish, 'Descuento en cabalgatas dentro del Parque y sus alrededores');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point6', dataEnglish, 'Discount on horse-rides in the park and surrounding areas');
         
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataSpanish, 'Abierto todo el año');
-        setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataEnglish, 'Open all year');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataSpanish, 'Atendido por sus dueños');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point7', dataEnglish, 'Owner operated');
+        
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point8', dataSpanish, 'Abierto todo el año');
+        setTextIfLang(this, currentLanguage, 'txt-accommodation-point8', dataEnglish, 'Open all year');
     
         setTextIfLang(this, currentLanguage, 'txt-accprices-photos', dataSpanish, 'Fotos');
         setTextIfLang(this, currentLanguage, 'txt-accprices-photos', dataEnglish, 'Photos');
